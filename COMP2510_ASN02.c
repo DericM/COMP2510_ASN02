@@ -6,8 +6,14 @@
 
 int main()
 {
-    return 0;
-	printf("c");
-	int c = getchar();
+    
+	printf("casfasf");
+
+
+
+
+
+	getchar();
+	return 0;
 }
 
