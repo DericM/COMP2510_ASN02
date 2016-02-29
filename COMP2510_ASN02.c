@@ -22,6 +22,16 @@ int main(int argc, char *argv[])
 	strcpy(set1, argv[1]);
 	strcpy(set2, argv[2]);
 
+	expand_set();
+
+
+
+
+
+
+
+
+
 	printf("%s\n", set1);
 	printf("%s", set2);
 
@@ -30,4 +40,24 @@ int main(int argc, char *argv[])
 	getchar();
 	return 0;
 }
+
+
+void expand_set(const char *comp[], char *expand[]) {
+	size_t i, j;
+	for (i = 0; comp[i] != '\0'; i++)
+		if(special_case(comp[i]))
+
+
+}
+
+
+int special_case(char c) {
+	switch (c) {
+	case '-':
+
+	}
+}
+
+
+
 
